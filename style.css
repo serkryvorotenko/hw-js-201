@@ -1,0 +1,26 @@
+#userList,#newUserList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+li{
+    border-radius: 15px;
+    border: 2px solid black;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: gainsboro;
+}
+.last__name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.first__name{
+    font-size: 20px;
+    font-weight: bold;
+}
